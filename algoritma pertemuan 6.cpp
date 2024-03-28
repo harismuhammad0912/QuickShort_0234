@@ -88,3 +88,10 @@ int pivot, i, j;
 
     q_short(j + 1, hight);
 
+}
+
+
+void display() {
+    cout << "\n--------------------" << endl;
+    cout << "Sorted Array" << endl;
+    cout << "--------------------" << endl;
