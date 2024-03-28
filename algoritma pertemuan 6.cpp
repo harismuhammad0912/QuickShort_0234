@@ -72,3 +72,11 @@ int pivot, i, j;
         cmp_count++;
         if (i < j)
         {
+  swap(i, j);
+        }
+    }
+
+    if (low < j ){
+
+        swap(low,j);
+    }
